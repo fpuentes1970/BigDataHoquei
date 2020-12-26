@@ -11,8 +11,8 @@ import sqlite3
 #conn = sqlite3.connect('Fem13_2019_2020.sqlite') #72
 
 #conn = sqlite3.connect('Benjami_2019_2020.sqlite')     #3
-#conn = sqlite3.connect('Alevi_2019_2020.sqlite')       #4
-conn = sqlite3.connect('Infantil_2019_2020.sqlite')    #5
+conn = sqlite3.connect('Alevi_2019_2020.sqlite')       #4
+#conn = sqlite3.connect('Infantil_2019_2020.sqlite')    #5
 #conn = sqlite3.connect('Juv_2019_2020.sqlite')          #6
 cur = conn.cursor()
 
